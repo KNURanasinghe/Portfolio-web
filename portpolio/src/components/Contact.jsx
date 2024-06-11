@@ -119,7 +119,7 @@ const Contact = () => {
               Send Message
             </button>
             {isSubmitted && (
-              <p className='mt-4 text-xl font-semibold text-purple-400'>
+              <p className='mt-4 text-lg text-purple-400 font- semibold'>
                 Message sending is successful!
               </p>
             )}
