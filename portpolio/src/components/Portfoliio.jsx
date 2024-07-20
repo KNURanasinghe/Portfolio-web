@@ -11,7 +11,7 @@ import Reveal from './Reveal';
 const projects =[
     {
         img: project1,
-        title: 'Project 1',
+        title: 'Efficiency-Police User side',
         description: 'Ui for frontend development using React.',
         links:{
             site:'#',
@@ -21,8 +21,8 @@ const projects =[
     
     {
         img: project2,
-        title: 'Project 2',
-        description: 'A fullstack application build with Node.js and mongoDB.',
+        title: 'Contact-Buddy-Master ',
+        description: 'A mobile application using Flutter.',
         links:{
             site:'#',
             github:'#'
@@ -31,8 +31,8 @@ const projects =[
     
     {
         img: project3,
-        title: 'Project 3',
-        description: 'An e- commerce platform with varios features.',
+        title: 'WEB-UI-UX-GPT-3 ',
+        description: 'Ui for frontend development using React.',
         links:{
             site:'#',
             github:'#'
@@ -41,8 +41,8 @@ const projects =[
     
     {
         img: project4,
-        title: 'Project 4',
-        description: 'An e- commerce platform with varios features.',
+        title: 'TDBM-movie-app ',
+        description: 'A mobile application using Flutter.',
         links:{
             site:'#',
             github:'#'
@@ -51,8 +51,8 @@ const projects =[
     
     {
         img: project5,
-        title: 'Project 5',
-        description: 'A mobile application using React Native.',
+        title: 'Music_Player',
+        description: 'A mobile application using Flutter.',
         links:{
             site:'#',
             github:'#'
@@ -61,7 +61,7 @@ const projects =[
     
     {
         img: project6,
-        title: 'Project 6',
+        title: 'bmw_app_using_dart_and_firebase',
         description: 'A data visualization project using D3.js and other libraries.',
         links:{
             site:'#',
