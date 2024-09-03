@@ -6,6 +6,7 @@ import {
     DiHtml5,
     DiJavascript1,
     DiMongodb,
+    DiMysql,
     DiNodejsSmall,
     DiReact
 } from "react-icons/di";
@@ -19,7 +20,7 @@ const skills =[
         {name: 'CSS', icon: <DiCss3 className="mx-2 text-blue-600"/>},
         {name: 'JavaScript', icon:  <DiJavascript1 className="mx-2 text-yellow-600"/>},
         {name: 'React', icon: <DiReact className="mx-2 text-blue-400"/>},
-
+        {name: 'Dart', icon: <DiDart className="mx-2 "style={{ color: '#0175C2' }}/>},
     ]
 },
 { 
@@ -29,6 +30,7 @@ const skills =[
         {name: 'MongoDB', icon: <DiMongodb className="mx-2 text-green-600"/>},
         {name: 'React', icon: <DiReact className="mx-2 text-blue-500"/>},
         {name: 'Dart', icon: <DiDart className="mx-2 "style={{ color: '#0175C2' }}/>},
+        {name: 'MySQL', icon: <DiMysql className="mx-2 "style={{ color: '#00758f' }}/>},
         {name: 'GitHub', icon:  <DiGithub className="mx-2 text-gray-600"/>},
        
 

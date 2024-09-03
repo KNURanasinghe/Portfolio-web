@@ -76,7 +76,7 @@ const Hero = () => {
             <div className="z-20 flex flex-row gap-6 text-4xl text-purple-400 md:text-6xl">
                 <motion.a
                     whileHover={{scale: 1.2, }}
-                    href="https://github.com/KNURanasinghe"
+                    href="https://github.com/KNURanasinghe?tab=repositories"
                     target="_blank"
                 >
                     <AiOutlineGithub/>

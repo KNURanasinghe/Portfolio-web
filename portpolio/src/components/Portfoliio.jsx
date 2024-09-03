@@ -1,41 +1,41 @@
 import React from 'react'
 import { AiOutlineGithub } from 'react-icons/ai'
-import project1 from '../assets/project1.png'
+import project1 from '../assets/image1.png'
 import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
-import Reveal from './Reveal';
+import project7 from '../assets/image.png'
+import Reveal from './Reveal'
 
 const projects =[
     {
-        img: project1,
+        img: project7,
         title: 'Efficiency-Police User side',
-        description: 'Ui for frontend development using React.',
+        description: 'Ui for frontend development using React with connecting backend.',
         links:{
-            site:'#',
-            github:'#'
+            //site:'#',
+            github:'https://github.com/KNURanasinghe/efficiency-police-web'
         }
     },
     
     {
         img: project2,
-        title: 'Contact-Buddy-Master ',
-        description: 'A mobile application using Flutter.',
+        title: 'Grarbage collecting system for wennapua city',
+        description: 'A mobile application using Flutter and google Map API.',
         links:{
-            site:'#',
-            github:'#'
+           // site:'#',
+            github:'https://github.com/KNURanasinghe/GARBAGE-COLLETING-VEHICLE-TRACKING-SYSTEM-FOR-WENNAPPUWA-CITY'
         }
     },
     
     {
-        img: project3,
+        img: project1,
         title: 'WEB-UI-UX-GPT-3 ',
-        description: 'Ui for frontend development using React.',
+        description: 'Ui for frontend development using React and CSS.',
         links:{
-            site:'#',
-            github:'#'
+            //site:'#',
+            github:'https://github.com/KNURanasinghe/WEB-UI-UX-GPT-3'
         }
     },
     
@@ -44,8 +44,8 @@ const projects =[
         title: 'TDBM-movie-app ',
         description: 'A mobile application using Flutter.',
         links:{
-            site:'#',
-            github:'#'
+            //site:'#',
+            github:'https://github.com/KNURanasinghe/TDBM-movie-app'
         }
     },
     
@@ -54,8 +54,8 @@ const projects =[
         title: 'Music_Player',
         description: 'A mobile application using Flutter.',
         links:{
-            site:'#',
-            github:'#'
+           // site:'#',
+            github:'https://github.com/KNURanasinghe/Music_Player_UI'
         }
     },
     
@@ -64,8 +64,8 @@ const projects =[
         title: 'bmw_app_using_dart_and_firebase',
         description: 'A data visualization project using D3.js and other libraries.',
         links:{
-            site:'#',
-            github:'#'
+           // site:'#',
+            github:'https://github.com/KNURanasinghe/bmw_app_using_dart_and_firebase'
         }
     },
 ]
@@ -87,12 +87,12 @@ const Portfoliio = () => {
                     <h3 className='mb-4 text-2xl font-semibold text-gray-200 ' >{project.title}</h3>
                     <p className='mt-4 text-gray-200'>{project.description}</p>
                     <div className='flex space-x-4'>
-                        <a href={project.links.site}
+                        {/* <a href={project.links.site}
                         className='px-4 py-2 text-gray-200 transition duration-300 rounded-lg bg-slate-600 hover:bg-slate-700 '
-                        >View Site</a>                        
+                        >View Site</a>                         */}
                         <a href={project.links.github}
                         className='px-4 py-2 text-gray-200 transition duration-300 rounded-lg bg-slate-600 hover:bg-slate-700 '
-                        ><AiOutlineGithub/></a>                        
+                        ><AiOutlineGithub/> </a>                        
                     </div>
                    
                     

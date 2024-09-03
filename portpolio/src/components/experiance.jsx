@@ -4,25 +4,25 @@ import Reveal from './Reveal';
 
 const experiences =[
     {
-        company: 'first company',
-        period: '2020 - present',
-        description: 'Description of your experience in this company'
+        company: 'Freelancer',
+        period: '2021 - present',
+        description: 'i am working with many project that reqested users and i am very comfortable in this field'
     },
-    {
-        company: 'second company',
-        period: '2020 - present',
-        description: 'Description of your experience in this company'
-    },
-    {
-        company: 'third company',
-        period: '2020 - present',
-        description: 'Description of your experience in this company'
-    },
-    {
-        company: 'fourth company',
-        period: '2020 - present',
-        description: 'Description of your experience in this company'
-    }
+    // {
+    //     company: 'second company',
+    //     period: '2020 - present',
+    //     description: 'Description of your experience in this company'
+    // },
+    // {
+    //     company: 'third company',
+    //     period: '2020 - present',
+    //     description: 'Description of your experience in this company'
+    // },
+    // {
+    //     company: 'fourth company',
+    //     period: '2020 - present',
+    //     description: 'Description of your experience in this company'
+    // }
 ]
 
 const experiance = () => {
