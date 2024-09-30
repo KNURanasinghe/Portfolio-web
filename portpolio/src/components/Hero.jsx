@@ -95,8 +95,8 @@ const Hero = () => {
                 </motion.a>
                 <motion.a
                     whileHover={{scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)"}}
-                    href="#"
-                    target="https://www.linkedin.com/in/knuranasinghe/"
+                    href="www.linkedin.com/in/knuranasinghe"
+                    target="_blank"
                 >
                     <AiOutlineLinkedin/>
                 </motion.a>
