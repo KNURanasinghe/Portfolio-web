@@ -2,22 +2,32 @@ import { motion } from "framer-motion";
 import React from 'react';
 import { AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import {
-    DiCss3,
-    DiDart,
-    DiHtml5,
-    DiJava,
-    DiJavascript1,
-    DiMongodb,
-    DiMysql,
-    DiNodejsSmall,
-    DiPython,
-    DiReact,
+  DiCss3,
+  DiDart,
+  DiHtml5,
+  DiJava,
+  DiJavascript1,
+  DiMongodb,
+  DiMysql,
+  DiNodejsSmall,
+  DiPython,
+  DiReact,
 } from "react-icons/di";
 import { TypeAnimation } from 'react-type-animation';
 import profilepic from "../assets/profpic.png";
 import ShinyEffect from "./ShinyEffect";
 
 const Hero = () => {
+
+  const downloadFileAtURL = (url) => {
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = url.substring(url.lastIndexOf('/') + 1); // Extracts filename from URL
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='mt-24 max-w-[1200px] mx-auto relative'>
       <div className='grid gap-8 md:grid-cols-2 place-items-center'>
@@ -68,6 +78,7 @@ const Hero = () => {
           className="flex flex-row items-center gap-6 my-4 md:mb-0"
         >
             <motion.button
+            onClick={()=>{downloadFileAtURL('https://portpolio-bb899.web.app/CV.pdf')}}
             whileHover={{scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)"}}
             className="z-10 p-4 font-bold text-gray-200 border rounded cursor-pointer md:w-auto-purple-500-xl"
             >
